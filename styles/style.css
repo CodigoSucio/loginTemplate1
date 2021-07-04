@@ -1,5 +1,4 @@
-
-#body{
+body{
     background-color: rgb(233, 68, 68);
 }
 
@@ -25,18 +24,30 @@
     border: 5px solid black;
 }
 
-#correo{
-    width: 500px;
-    height: 50px;
-    display: block;
+#cuadrado{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    background-color: blueviolet;
     border: 5px solid black;
-    font-size: x-large;
 }
 
-#password{
+#triangulo{
+    width: 0;
+    height: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 100px solid pink;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+
+#texto{
     width: 500px;
     height: 50px;
     display: block;
@@ -52,6 +63,11 @@ p{
     font-size: x-large;
 }
 
+h3{
+    font-weight: 700;
+    font-size: x-large;
+}
+
 #botones{
     width: 60%;
     margin-top: 20px;
@@ -60,23 +76,15 @@ p{
     align-items: center;
 }
 
-#crear{
-    margin-left: 30px;
-    background-color: rgb(47, 99, 194);
+#boton{
     width: 250px;
     height: 50px;
+    margin-left: 30px;
+    background-color: rgb(47, 99, 194);
     border: 5px solid black;
     font-weight: 700;
     font-size: x-large;
 }
 
-#ingresar{
-    margin-left: 30px;
-    background-color: rgb(47, 99, 194);
-    width: 250px;
-    height: 50px;
-    border: 5px solid black;
-    font-weight: 700;
-    font-size: x-large;
-}
+
 
